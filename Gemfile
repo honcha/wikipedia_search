@@ -3,11 +3,8 @@ source 'https://rubygems.org'
 # ruby version
 ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails'
-# Use sqlite3 as the database for Active Record
-group :development do
-  gem 'sqlite3'
-end
+gem 'rails', '4.0.5'
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -34,6 +31,16 @@ gem 'spring',        group: :development
 # Use wikipedia-client for searching words in wikipedia
 gem 'wikipedia-client'
 gem 'wikicloth'
+
+# Use sqlite3 as the database for Active Record
+group :development do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
