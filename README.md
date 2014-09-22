@@ -2,5 +2,5 @@
 
 これは、wikipediaを検索するアプリケーションです。
 
-[URL](http://xxx.xxx/)
-
+検索はこちらから
+[http://shrouded-scrubland-4962.herokuapp.com/wikipedia_search/input](http://shrouded-scrubland-4962.herokuapp.com/wikipedia_search/input)
