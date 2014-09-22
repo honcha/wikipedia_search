@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # ruby version
 ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.5'
+gem 'rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -21,9 +21,9 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
-group :doc do
-  gem 'sdoc', '0.3.20', require: false
-end
+#group :doc do
+#  gem 'sdoc', '0.3.20', require: false
+#end
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
