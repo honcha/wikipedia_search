@@ -1,0 +1,7 @@
+.rbenv-version
+.ruby-version
+*.gem
+*.swp
+*.tmp
+*.log
+pkg/*

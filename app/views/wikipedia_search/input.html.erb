@@ -1,0 +1,6 @@
+<h1>Wikipedia で検索します</h1>
+<%= form_tag '/wikipedia_search/result' do %>
+  <%= text_field :search, :query, :value => '' %>
+  <%= submit_tag '検索' %>
+<% end %>
+

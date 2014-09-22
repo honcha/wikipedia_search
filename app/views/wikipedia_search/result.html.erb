@@ -1,0 +1,13 @@
+<h1>Wikipedia 検索結果</h1>
+<hr>
+<%= link_to '再検索する', '/wikipedia_search/input' %>
+<hr>
+<p>
+  <strong>タイトル:</strong>
+  <%= @title %>
+</p>
+<hr>
+<p>
+  <strong>内容:</strong>
+  <%= raw @content %>
+</p>
