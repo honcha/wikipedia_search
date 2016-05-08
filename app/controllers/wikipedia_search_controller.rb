@@ -9,8 +9,8 @@ require 'wikicloth'
 
   # 検索結果表示画面
   def result
-  	query = params[:search][:query]
-  	if query.present?
+    query = params[:search][:query]
+    if query.present?
       page = Wikipedia.find(query)
       if page.present?
         content = WikiCloth::Parser.new(data: page.content)
